@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    .navbar {
+        background-color: rgb(2, 4, 117);
+        position: sticky;
+    }
+
+    .nav-link {
+        color: white;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    .logoHeader {
+        height: 4.5rem;
+        width: 16rem;
+        border-radius: 3px;
+    }
+
+    .navbar-toggler {
+        color: white;
+    }
+}
+
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ECECEE;
+    .h1ListasYCatalogo {
+        padding-top: 1rem;
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    .container {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        box-shadow: 5px 5px 30px black;
+        width: 22rem;
+        height: 14rem;
+    }
+
+    .card-img-top {
+        padding-top: 5px;
+        height: 5rem;
+        object-fit: contain;
+    }
+
+    .containerCatalogo {
+        padding-top: 1rem;
+        padding-left: 8rem;
+        padding-bottom: 10px;
+        justify-content: space-around;
+    }
+
+    .btn {
+        background-color: rgb(2, 4, 117);
+
+        &:hover {
+            background-color: red;
+        }
+    }
+
+    .containerInfoFormulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h2CasaCentral {
+        padding: 1rem;
+    }
+
+    .iconoPaginaWeb {
+        color: red;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+footer {
+
+    padding: 2rem;
+    background-color: rgb(2, 4, 117);
+    color: white;
+
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+}

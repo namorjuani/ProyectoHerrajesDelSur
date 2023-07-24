@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--SCRIPT BOOTSTRAP CSS-->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+    <!--Script FontAwesome-->
+    <script src="https://kit.fontawesome.com/1bb15621e1.js" crossorigin="anonymous"></script>
+    <title>Herrajes Del Sur</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg"> <!--navbar-light bg-light-->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/logoHDS.png" class="logoHeader"
+                        alt="Logo Herrajes del Sur"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/listas-y-catalogo.html">Listas de precios y catálogo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--SECCION DE CONTACTO. FORMULARIO -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Contacto</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono:</label>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comentario">Comentario:</label>
+                            <textarea class="form-control" id="comentario" name="comentario" rows="4"
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="containerInfoFormulario col-md-6">
+                    <h2 class="h2CasaCentral">Casa central</h2>
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            Dirección: Tres Arroyos 740, General Roca, RN
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            Teléfono: (298) 4691350
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            Email: herrajesdelsur@gmail.com
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            Página web: <a href="https://www.example.com"
+                                class="iconoPaginaWeb">www.herrajesdelsur.com.ar</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="footer-container row">
+            <div class="col-md-6 footer-contact">
+                <h4>Contacto</h4>
+                <p><i class="fas fa-map-marker-alt">Tres Arroyos 740, General Roca, Rio Negro</i></p>
+                <p><i class="fas fa-phone"></i> Teléfono: (298) 4691350</p>
+                <p><i class="fas fa-envelope"></i> Correo electrónico: herrajesdelsur@gmail.com</p>
+            </div>
+            <div class="col-md-6 footer-links">
+                <ul>
+                    <li><a href="https://www.empresa.com"><i class="fas fa-globe"></i> Página web</a></li>
+                    <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <h6>Desarrollado por Namor Juan, Juan Rodrigo. Todos los derechos reservados.</h6>
+    </footer>
+
+
+    <!--SCRIPTS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
